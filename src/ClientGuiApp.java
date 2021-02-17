@@ -97,7 +97,7 @@ public class ClientGuiApp extends Application {
 
     public void sendMessage() {
         if (connected) {
-            messages.add(chatInputTxf.getText());
+            messages.add(usernameTxf.getText() + ": " + chatInputTxf.getText());
             chatInputTxf.clear();
         }
     }

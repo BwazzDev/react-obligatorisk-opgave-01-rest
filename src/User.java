@@ -19,6 +19,6 @@ public class User {
 
     @Override
     public String toString() {
-        return userID + " | " + name;
+        return name;
     }
 }
